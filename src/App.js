@@ -102,7 +102,7 @@ function App() {
       style={{
         display: "flex",
         flexwrap: "flex-wrap",
-        gap: "15px",
+        gap: "30px",
         marginLeft: "15px",
         marginBottom: "15px",
         marginTop: "15px",
