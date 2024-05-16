@@ -119,8 +119,10 @@ function App() {
           >
             <img height={"220px"} width={"300px"} src={e.imgCard} alt=""></img>
             <h4>{e.title}</h4>
-            <p>{e.extraInformation}</p>
+            <p style={{fontSize:"10px"}}>{e.extraInformation}</p>
             <h2>{e.price}</h2>
+            <p style={{fontSize:"12px"}}>{e.discountInfo}</p>
+            <p style={{fontSize:"12px"}}>{e.deliveryInfo}</p>
           </div>
         );
       })}
